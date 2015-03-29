@@ -1,5 +1,6 @@
 package com.example.johan.hellocompass;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -39,6 +40,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void Compass(View view) {
-
+        Intent intent = new Intent(this, Compass.class);
+        startActivity(intent);
     }
 }
