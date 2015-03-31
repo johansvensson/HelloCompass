@@ -65,7 +65,7 @@ public class Compass extends Activity implements SensorEventListener{
                     mCurrentDegree,
                     -azimuthInDegress,
                     Animation.RELATIVE_TO_SELF, 0.5f,
-                    Animation.RELATIVE_TO_SELF,
+                    Animation.RELATIVE_TO_SELF ,
                     0.5f);
 
             ra.setDuration(250);
